@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: 'Lato';
+    color: white;
+}
+
+.debug{
+    border: 2px dashed green;
+}
+/* UTILS */
+.container{
+    width: 80%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/* MAIN */
+main section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container .user{
+    position: relative;
+    margin: 5px 3px;
+    width: calc(100% /7);
+}
+.container .user .name{
+    background-color: #6a717988;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 4px 5px;
+    font-size: .8rem;
+}
+.container .user .name i{
+    font-size: .57rem;
+}
